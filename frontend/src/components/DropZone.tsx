@@ -2,7 +2,7 @@
 
 import { useCallback, useState, useRef } from "react";
 
-const API_URL = "https://nonascetical-unapproved-emmie.ngrok-free.dev"; // Kaggle backend URL
+const API_URL = "https://gleamingly-limitary-georgie.ngrok-free.dev/"; // Kaggle backend URL
 
 export async function enhanceImage(file: File) {
   const formData = new FormData();
