@@ -16,7 +16,7 @@ interface EnhanceResult {
 }
 
 const BACKEND_URL =
-  process.env.NEXT_PUBLIC_BACKEND_URL || "https://nonascetical-unapproved-emmie.ngrok-free.dev";
+  process.env.NEXT_PUBLIC_BACKEND_URL || "https://gleamingly-limitary-georgie.ngrok-free.dev/";
 
 export default function Home() {
   const [isProcessing, setIsProcessing] = useState(false);
